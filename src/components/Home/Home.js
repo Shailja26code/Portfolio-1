@@ -26,7 +26,7 @@ function Home() {
                 I'M
                 <strong className="main-name"> Shailja Mishra</strong>
               </h1>
-
+        
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
