@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2cf7372e.css",
+    "main.js": "/portfolio/static/js/main.22f26431.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CV.png": "/portfolio/static/media/CV.e631dc87979f076427b4.png",
+    "static/media/Shailja_Mishra_Software_Developer V1.0.pdf": "/portfolio/static/media/Shailja_Mishra_Software_Developer V1.0.e02e1ec08ad2d93f4284.pdf",
+    "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.c0eafc3d8f50e2d75b32.jpg",
+    "static/media/Shailja Pic.svg": "/portfolio/static/media/Shailja Pic.476bc89ae256c90a83532b49f03a1548.svg",
+    "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Cakery.png": "/portfolio/static/media/Cakery.63b4563550fc1aad7245.png",
+    "static/media/asset.jpg": "/portfolio/static/media/asset.5a2c6dd0813c23a4c3da.jpg",
+    "static/media/todo.jpg": "/portfolio/static/media/todo.ff6b86d4d918243edbb0.jpg",
+    "static/media/logo.png": "/portfolio/static/media/logo.a6498be7c697f456bc07.png",
+    "static/media/avatar.svg": "/portfolio/static/media/avatar.a3d045c4cfd81bd0a0147a514b0fbf1d.svg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/portfolio/index.html",
+    "main.2cf7372e.css.map": "/portfolio/static/css/main.2cf7372e.css.map",
+    "main.22f26431.js.map": "/portfolio/static/js/main.22f26431.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cf7372e.css",
+    "static/js/main.22f26431.js"
+  ]
+}
