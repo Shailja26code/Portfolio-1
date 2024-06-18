@@ -6,6 +6,7 @@ import todo from "../../Assets/Projects/todo.jpg";
 import asset from "../../Assets/Projects/asset.jpg";
 import Cakery from "../../Assets/Projects/Cakery.png";
 import CV from "../../Assets/Projects/CV.png";
+import CVCreator from "../../Assets/Projects/CVCreator.png";
 
 function Projects() {
   return (
@@ -19,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={CVCreator}
+              isBlog={false}
+              title="CVCreator"
+              description="The CV Creator is a web application built with JavaScript, HTML, CSS, and React that allows users to create professional-looking curriculum vitae (CVs) easily. The project aims to provide a user-friendly interface for individuals to craft and customize their CVs, streamlining the process of creating and updating their professional profiles."
+              ghLink="https://github.com/Shailja26code/CV-Creator"
+              demoLink="https://shailja26code.github.io/CV-Creator-Live/"
+            />
+          </Col>
+
           <Col md={5} className="project-card">
             <ProjectCard
               imgPath={Cakery}
