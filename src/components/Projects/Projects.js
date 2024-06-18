@@ -7,6 +7,8 @@ import asset from "../../Assets/Projects/asset.jpg";
 import Cakery from "../../Assets/Projects/Cakery.png";
 import CV from "../../Assets/Projects/CV.png";
 import CVCreator from "../../Assets/Projects/CVCreator.png";
+import Portfolio from "../../Assets/Projects/Portfolio.png";
+import AWorldOfBook from "../../Assets/Projects/AworldofBook.png";
 
 function Projects() {
   return (
@@ -28,6 +30,28 @@ function Projects() {
               description="The CV Creator is a web application built with JavaScript, HTML, CSS, and React that allows users to create professional-looking curriculum vitae (CVs) easily. The project aims to provide a user-friendly interface for individuals to craft and customize their CVs, streamlining the process of creating and updating their professional profiles."
               ghLink="https://github.com/Shailja26code/CV-Creator"
               demoLink="https://shailja26code.github.io/CV-Creator-Live/"
+            />
+          </Col>
+
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={Portfolio}
+              isBlog={false}
+              title="Portfolio"
+              description="My Portfolio Shailja26code which features some of my github projects as well as my resume and technical skills. This project was built using these technologies like React.js ,Node.js, Express.js, CSS3. This Project is Multi-Page Layout, Styled with React-Bootstrap and Css with easy to customize colors, Fully Responsive."             
+              ghLink="https://github.com/Shailja26code/Portfolio"
+              demoLink="https://shailja26code.github.io/MyPortfolio/"
+            />
+          </Col>
+
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={AWorldOfBook}
+              isBlog={false}
+              title="AWorldOfBook"
+              description="The World of Books project is an e-commerce website or web application focused on selling books online. It is developed using a combination of HTML for structuring the content, CSS for styling and layout, and JavaScript for adding interactivity and functionality."
+              ghLink="https://github.com/karinastrand/aworldofbooks"
+              demoLink="https://karinastrand.github.io/aworldofbooks/"
             />
           </Col>
 
