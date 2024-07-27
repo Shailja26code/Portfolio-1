@@ -9,6 +9,7 @@ import CV from "../../Assets/Projects/CV.png";
 import CVCreator from "../../Assets/Projects/CVCreator.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import AWorldOfBook from "../../Assets/Projects/AworldofBook.png";
+import TicTacToe from "../../Assets/Projects/TicTacToeGameimage.png"
 
 function Projects() {
   return (
@@ -22,6 +23,22 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={TicTacToe}
+              isBlog={false}
+              title="TicTacToe"
+              description="As part of my journey to master React, I've created this classic game from scratch. This project has been an incredible learning experience..
+Key features of the game:
+-> Interactive game board
+-> Win detection algorithm
+-> Option to Restart(reset) the game
+"
+              ghLink="https://github.com/Shailja26code/tic-tac-toe"
+              demoLink="https://shailja26code.github.io/tic-tac-toe/"
+            />
+          </Col>
+
         <Col md={5} className="project-card">
             <ProjectCard
               imgPath={CVCreator}

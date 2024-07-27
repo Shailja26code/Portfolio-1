@@ -262,12 +262,14 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  
 }
 
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+  
 }
 
 .heading {
@@ -279,6 +281,7 @@ button:focus {
   font-size: 2.5em !important;
   padding-left: 45px !important;
 }
+
 
 .main-name {
   color: #cd5ff8;
@@ -308,12 +311,16 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+  
+
 }
 
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+    border-radius: 50%;
+    
   }
 }
 
