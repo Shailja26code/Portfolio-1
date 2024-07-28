@@ -34,7 +34,7 @@ function Home() {
 
             <Col md={3} className="myAvtar">
             <Tilt>
-              <img src={homeLogo} alt="avatar" className="img-fluid" style={{ paddingTop: "0px"}}/>
+              <img src={homeLogo} alt="avatar" className="img-fluid" style={{ paddingTop: "0px", borderRadius: "50px"}}/>
             </Tilt>
             </Col>
           </Row>
